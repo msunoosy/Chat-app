@@ -4,11 +4,13 @@ import "./App.css";
 
 export default function App() {
   return (
-    <ChatEngine
-      height="100vh"
-      projectID=""
-      userName="sunoos"
-      userSecret=""
-    ></ChatEngine>
+    <div>
+      <ChatEngine
+        height="100vh"
+        projectID=""
+        userName="sunoos"
+        userSecret=""
+      ></ChatEngine>
+    </div>
   );
 }
